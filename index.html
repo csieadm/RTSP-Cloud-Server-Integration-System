@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <link rel="stylesheet" href="./css/main.css" />
+  <title>留言板</title>
+<body>
+  <div class="container">
+    <h1>留言互動區</h1>
+    <label>輸入您的訊息：</label>
+    <input type="text" id="message-input" required>
+    <label>選擇文字顏色</label>
+    <div class="color-selector">
+      <button class="color-button red">紅</button>
+      <button class="color-button orange">橙</button>
+      <button class="color-button yellow">黃</button>
+      <button class="color-button green">綠</button>
+      <button class="color-button blue">藍</button>
+      <button class="color-button indigo">靛</button>
+      <button class="color-button violet">紫</button>
+    </div>
+    <label>選擇投遞物品</label>
+    <div class="item-selector">
+      <button class="item-button soccer-ball" data-item="item1"></button>
+      <button class="item-button rubiks-cube" data-item="item2"></button>
+      <button class="item-button cake" data-item="item3"></button>
+      <button class="item-button cone" data-item="item4"></button>
+      <button class="item-button custom" data-item="itemCustom"></button>
+    </div>
+    <button type="submit" class="submit-button" id="submit">發送訊息</button>
+    <div id="log"></div>
+    <div id="wslog"></div>
+    <div class="logo"><img src="https://i.imgur.com/9zUD9aD.png" alt="宏國德霖科技大學" /></div>
+    <p style="text-align:center"><span style="font-size:6px">虛擬直播互動系統Ver3.0</span></p>
+  </div>
+  <script src="./js/index.js"></script>
+</body>
+</head>
